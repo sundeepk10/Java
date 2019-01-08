@@ -1,8 +1,8 @@
-package src.test.java.com.conversions;
+package com.conversions;
 
 import org.junit.Assert;
 import org.junit.Test;
-import src.main.java.com.conversions.AnyBaseToDecimal;
+import com.conversions.AnyBaseToDecimal;
 
 public class AnyBaseToDecimalTest {
 

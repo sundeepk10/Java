@@ -1,4 +1,4 @@
-package src.test.java.com.generation;
+package com.generation;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -11,7 +11,7 @@ import javax.imageio.ImageIO;
 
 import org.junit.jupiter.api.Test;
 
-import src.main.java.com.generation.SimplexNoise;
+import com.generation.SimplexNoise;
 
 public class SimplexNoiseTest {
 

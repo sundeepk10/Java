@@ -1,9 +1,9 @@
-package src.test.java.com.sorts;
+package com.sorts;
 
 
 import org.junit.Assert;
 import org.junit.Test;
-import src.main.java.com.sorts.BubbleSort;
+import com.sorts.BubbleSort;
 
 public class BubbleSortTest {
 

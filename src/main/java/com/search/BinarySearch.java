@@ -1,4 +1,4 @@
-package src.main.java.com.search;
+package com.search;
 
 /**
  * Binary search is an algorithm which finds the position of a target value within a sorted array
@@ -27,7 +27,7 @@ public final class BinarySearch{
      * @param right The  upper bound
      * @return the location of the key
      **/
-    private static <T extends Comparable<T>> int search(T array[], T key, int left, int right){
+    static <T extends Comparable<T>> int search(T array[], T key, int left, int right){
         if (left > right) {
             return -1; // Key not found
         }

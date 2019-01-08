@@ -1,9 +1,9 @@
-package src.test.java.com.sorts;
+package com.sorts;
 
 
 import org.junit.Assert;
 import org.junit.Test;
-import src.main.java.com.sorts.InsertionSort;
+import com.sorts.InsertionSort;
 
 public class InsertionSortTest {
 

@@ -1,9 +1,9 @@
-package src.test.java.com.search;
+package com.search;
 
 import org.junit.Assert;
 import org.junit.Test;
 
-import src.main.java.com.search.InterpolationSearch;
+import com.search.InterpolationSearch;
 
 public class InterpolationSearchTest {
 

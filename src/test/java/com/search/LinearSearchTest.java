@@ -1,8 +1,8 @@
-package src.test.java.com.search;
+package com.search;
 
 import org.junit.Assert;
 import org.junit.Test;
-import src.main.java.com.search.LinearSearch;
+import com.search.LinearSearch;
 
 public class LinearSearchTest {
     @Test

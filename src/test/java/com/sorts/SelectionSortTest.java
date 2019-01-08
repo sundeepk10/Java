@@ -1,8 +1,8 @@
-package src.test.java.com.sorts;
+package com.sorts;
 
 import org.junit.Assert;
 import org.junit.Test;
-import src.main.java.com.sorts.SelectionSort;
+import com.sorts.SelectionSort;
 
 public class SelectionSortTest {
 

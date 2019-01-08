@@ -1,12 +1,13 @@
-package src.test.java.com.search;
+package com.search;
+
 
 import org.junit.Assert;
+import static org.mockito.Mockito.*;
 import org.junit.Test;
-import src.main.java.com.search.BinarySearch;
 
 public class BinarySearchTest {
 
-    @Test
+	@Test
     public void testBinarySearch() {
         Integer[] arr1 = {1,2,3,4,5};
         Assert.assertEquals("Incorrect index", 2, BinarySearch.findIndex(arr1,3));
@@ -22,4 +23,5 @@ public class BinarySearchTest {
         String[] arr3 = {};
         Assert.assertEquals("Incorrect index", -1, BinarySearch.findIndex(arr3, ""));
     }
+      
 }
